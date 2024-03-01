@@ -1,14 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    @if (ViewBag.Title != null)
-    {
-        <title>@ViewBag.Title</title>
-    }
-    else
-    {
-        <title>Главная</title>
-    }
     @await Html.PartialAsync("MetatagsPartial")
     @await Html.PartialAsync("CssPartial")
 </head>
